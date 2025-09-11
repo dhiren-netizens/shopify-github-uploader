@@ -7,7 +7,7 @@ export default async function handler(req, res) {
 
   try {
     const response = await fetch(
-      `https://api.github.com/repos/dhiren-netizens/agt-img/contents/${filename}`,
+      `https://api.github.com/repos/dhiren-netizens/shopify-github-uploader/contents/${filename}`,
       {
         method: 'PUT',
         headers: {
